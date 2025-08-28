@@ -67,6 +67,6 @@ int main(int argc, char *argv[]) {
     }
   }
 
-  output_file(dbFd, dbhdr);
+  output_file(dbFd, dbhdr, NULL);
   return 0;
 }
